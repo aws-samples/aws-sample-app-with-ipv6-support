@@ -288,7 +288,7 @@ Resources:
   ALBSecurityGroup:
     Type: AWS::EC2::SecurityGroup
     Properties:
-        GroupDescription: 'int-alb-with-ga-sg'
+        GroupDescription: 'alb-with-ipv6-support'
         VpcId:
           Ref: VPC
         SecurityGroupIngress:
